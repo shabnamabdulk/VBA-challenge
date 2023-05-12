@@ -10,3 +10,11 @@ A forloop was generated to loop through raw data, and pull out valuable informat
 Three columns were formatted in the Summary Statistics Table. They are: the **yearly change**, the **percent change**, and the **total stock volume** columns. The **yearly change** column was formatted first to show only two decimal places. Then, through conditional formatting, values greater than or equal to zero were given an interior color of green, which values less than zero were given an interior color of red using color indexes. The **percent change** column was formatted first to show two decimal places and a "%" sign at the end. Second, through conditional formatting, values greater than and equal to zero were assigned a green font, while values less than zero were assigned a red font. Finally, the **total stock volume** column was formatted simply into comma separated values.
 ### Part D: Noteworthy Stocks Table
 What makes a stock noteworthy? Stocks with the greatest percent increase, the greatest percent decrease, and the greatest total stock volume might allow analysts to determine contributers to stock success and failure. In this dataset, these values were calculated per year. Stocks corresponding to greatest percent increase, greatest percent decrease, and greatest total volume were found through the worksheet functions max, min, and max respectively. These values were then formatted similarly to the Summary Statistics Table and the corresponding ticker was obtained through the Index and Match Function.
+### References
+The following references were used:
+(1)	To define the last rows of columns
+(2)	To find the corresponding ticker to greatest percent increase, greatest percent decrease, and greatest total volume
+(3)	For formatting cells in tables
+1.	VBA Last Row. (2023). WallStreetMojo. http://wallstreetmojo.com/vba-last-row/
+2.	VBA Index Match. (2023). WallStreetMojo. http://wallstreetmojo.com/vba-index-match/
+3.	Formatting a Range of Cells In Excel VBA. (2014). ExcelHowto. http://excelhowto.com/macros/formatting-a-range-of-cells-in-excel-vba/#index-7
